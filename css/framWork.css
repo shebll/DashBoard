@@ -70,6 +70,9 @@
 .m-20{
   margin: 20px;
 }
+.m-15{
+  margin: 15px;
+}
 .m-0{
   margin: 0px;
 }
@@ -81,6 +84,9 @@
 }
 .mb-10{
   margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
 }
 .mb-20{
   margin-bottom: 20px;
@@ -108,6 +114,10 @@
 }
 .rad-10{
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .rad-50{
   border-radius: 50%;
@@ -146,7 +156,7 @@
 .c-red{
   color: rgb(255, 38, 38);
 }
-.bg-wight{
+.bg-white{
   background-color: white;
 }
 .bg-eee{
@@ -235,9 +245,11 @@
 }
 /* start font */
 /* start components */
+.border-ccc{
+  border: 1px solid #ccc;
+}
 .between-flex{
   display: flex;
-
   justify-content: space-between;
 }
 .center-flex{
@@ -246,7 +258,7 @@
   justify-content: center;
 }
 .btn-shape{
-  padding: 9px 15px;
+  padding: 11px 15px;
   border-radius: 10px;
   font-weight: bold;
   transition: 0.4s;
