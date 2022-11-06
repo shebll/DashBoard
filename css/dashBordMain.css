@@ -600,13 +600,9 @@ h1::after{
 .project-table img:not(:first-child){
     margin-left: -18px;
 } 
-.project-table img:hover{
-    
-} 
 .response thead td {
   background-color: #eee;
   padding: 20px;
-
   color: #0f3f7e;
   transition: 0.3s;
   font-size: large;
@@ -630,9 +626,5 @@ h1::after{
 .response tbody td:last-child {
   border-right : 3px solid #eee;
   
-}
-
-.response{
-
 }
 /* end content*/
