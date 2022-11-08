@@ -1,5 +1,8 @@
 /* start the framework */
 /* start box model */
+p{
+  line-height: 1.8;
+}
 .d-grid{
   display: grid;
 }
