@@ -1209,10 +1209,10 @@ h1::after{
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
- 
+  -o-transform: translateX(-50%); 
 }
 .courses-page .course:hover   {
+  box-shadow: -7px 10px 0px 3px #7d7d7d;
   transform: translateY(-18px);
   -webkit-transform: translateY(-18px);
   -moz-transform: translateY(-18px);
@@ -1254,6 +1254,61 @@ h1::after{
   -ms-transform: translate(-50%);
   -o-transform: translate(-50%);
 }
-
+/* start friends  */
+.friends-page{
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+@media (max-width:767px) {
+  .friends-page{
+    grid-template-columns: minmax(200px,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+.friends-page .contact{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.friends-page .contact i{
+  background-color: #eee;
+  padding: 9px;
+  color: #5c5c5c;
+  transition:.4s;
+  -webkit-transition:.4s;
+  -moz-transition:.4s;
+  -ms-transition:.4s;
+  -o-transition:.4s;
+  cursor: pointer;
+}
+.friends-page .contact i:hover{
+  color: rgb(255, 255, 255);
+  background-color: #255fffd5;
+}
+.friends-page .friend .icons{
+  padding: 9px 0px 0px;
+  border-top: 3px solid #eee;
+  border-bottom: 3px solid #eee;
+  margin: 21px 0px;
+}
+.friends-page .friend .icons i{
+  font-size: 19px;
+  color: #4213a5;
+}
+.friends-page .friend .icons .vip{
+  position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 66px;
+    /* background-color: #4acae0; */
+    padding: 9px;
+    border-radius: 13px;
+    color: #ffe13e;
+    opacity: 60%;
+}
+/* end friends  */
 /* end profile*/
+
 /* end content*/
