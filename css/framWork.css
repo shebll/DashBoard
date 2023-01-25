@@ -3,6 +3,7 @@
 p{
   line-height: 1.8;
 }
+
 .d-grid{
   display: grid;
 }
@@ -69,6 +70,9 @@ p{
 }
 .pb-20{
   padding-bottom: 20px;
+}
+.pt-10{
+  padding-top: 10px;
 }
 .pt-20{
   padding-top: 20px;
