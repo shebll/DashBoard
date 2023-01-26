@@ -1438,4 +1438,99 @@ border-top: 2px solid #eee;
   -o-transform: rotate(5deg);
 }
 /* end files  */
+/* start plans */
+.plans-page {
+  grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+}
+@media (max-width:767px) {
+  .plans-page{
+    grid-template-columns: minmax(200px,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+.plans-page .plan .prics {
+  margin-bottom: 6px;
+  padding: 15px 0;
+  background-color: #3cae3ccf;
+  outline: 6px solid #3cae3ccf;
+  border: 4px solid rgb(255, 255, 255);
+  text-align: center;
+}
+.plans-page .plan .prics span {
+  color: rgb(107, 101, 199);
+  position: relative;
+  font-weight: bold;
+  margin: 14px auto;
+  font-size: 40px;
+
+}
+.plans-page .plan .prics span::after {
+  content: '$';
+  color: white;  
+  top: -10px;
+  left: -30px;
+  position: absolute;
+
+
+}
+.plans-page .plan .prics h2 {
+  margin: 0px 0 10px;
+}
+.plans-page .plan  ul {
+  margin-bottom: 6px;
+}
+.plans-page .plan ul li {
+  padding: 8px 0;
+  height: 50px;
+  border-top: 3px solid #e9e9e9;
+}
+.plans-page .plan ul li .hint p {
+  transition: 0.4s;
+  position: relative;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+  margin-right: 9px;
+  width: 0px;
+  opacity: 0;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.plans-page .plan ul li .hint p::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right:  -14px;
+  transform: translatey(-50%);
+  border: 8px solid ;
+  border-color:transparent transparent transparent #5454ff;
+  -webkit-transform: translatey(-50%);
+  -moz-transform: translatey(-50%);
+  -ms-transform: translatey(-50%);
+  -o-transform: translatey(-50%);
+}
+.plans-page .plan ul li .hint i {
+  color: gray;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+.plans-page .plan ul li .hint i:hover +p{
+  opacity: 1;
+  width: 100%;
+}
+.plans-page .plan ul li .hint {
+  flex-direction: row-reverse  ;
+  align-items: center;
+}
+/* end plans */
 /* end content*/
