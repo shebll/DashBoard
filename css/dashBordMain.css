@@ -12,6 +12,14 @@
 ::-webkit-scrollbar-thumb:hover{
   background-color: #3434ff;
 }
+.scroller{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 8px;
+  background-color: #0077b5;
+}
 *{
   box-sizing: border-box;
 }
