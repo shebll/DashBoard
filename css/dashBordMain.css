@@ -1469,20 +1469,24 @@ border-top: 2px solid #eee;
 .plans-page .plan .prics {
   margin-bottom: 6px;
   padding: 15px 0;
-  background-color: #3cae3ccf;
-  outline: 6px solid #3cae3ccf;
+  background-color: #080f4dcf;
+  outline: 6px solid #9a2effcf;
   border: 4px solid rgb(255, 255, 255);
   text-align: center;
 }
-.plans-page .plan .prics span {
-  color: rgb(107, 101, 199);
+.plans-page .plan .prics span.amount ,
+.plans-page .plan .prics span.amount1,
+.plans-page .plan .prics span.amount2{
+  color: rgb(255, 137, 147);
   position: relative;
   font-weight: bold;
   margin: 14px auto;
   font-size: 40px;
 
 }
-.plans-page .plan .prics span::after {
+.plans-page .plan .prics span.amount::after ,
+.plans-page .plan .prics span.amount1::after,
+.plans-page .plan .prics span.amount2::after {
   content: '$';
   color: white;  
   top: -10px;
