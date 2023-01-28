@@ -1310,6 +1310,14 @@ h1::after{
     color: #ffe13e;
     opacity: 60%;
 }
+.friends-page .friend .info  div{
+  flex: 3;  
+  display: flex;
+  justify-content: end;
+}
+.friends-page .friend .info  div a:last-child{
+  margin-left: 8px;
+}
 /* end friends  */
 /* start files  */
 .files-page {
