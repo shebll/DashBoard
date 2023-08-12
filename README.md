@@ -1,6 +1,6 @@
 # DashBoard 
 
-dimo -> [https://shebll.github.io/template-4/ ](https://shebll.github.io/DashBoard/)
+dimo -> [https://shebll.github.io/DashBoard/]
 ## Screenshots of the site  
 ![alt text](https://github.com/shebll/DashBoard/blob/master/pics/Dashboard0.png)
 ![alt text](https://github.com/shebll/DashBoard/blob/master/pics/Dashboard1.png)
